@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+# 日志打印位置
+logging:
+  file: /server/log/springboot-quickstart-${server.port}.log
+  level:
+    com.liang: INFO
+
