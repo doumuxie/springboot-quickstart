@@ -27,7 +27,7 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(Exception.class)
     public ResultUtil exceptionHandler(Exception e) {
-        logger.error(e.getMessage());
+        e.printStackTrace();
         return ResultUtil.error("服务器繁忙!");
     }
 
