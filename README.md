@@ -11,7 +11,7 @@ JDK1.8 + Springboot + maven + fastjson
 
 #### 安装教程
 
-1.  idea下git此源码 `https://gitee.com/lyears/springboot-quickstart.git`
+1.  idea下git此源码 `https://github.com/doumuxie/springboot-quickstart.git`
 
 #### 使用说明
 
