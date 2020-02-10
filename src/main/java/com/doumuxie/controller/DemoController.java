@@ -26,4 +26,10 @@ public class DemoController {
     }
 
 
+    @RequestMapping("/page")
+    public ResultUtil page(DemoDto dto) {
+        return ResultUtil.success(demoService.page(dto));
+    }
+
+
 }

@@ -32,20 +32,20 @@ public class ResultUtil {
         this.data = data;
     }
 
-    public static ResultUtil success(){
+    public static ResultUtil success() {
         ResultUtil resultUtil = new ResultUtil();
         resultUtil.setSuccess(true);
         return resultUtil;
     }
 
-    public static ResultUtil success(Object data){
+    public static ResultUtil success(Object data) {
         ResultUtil resultUtil = new ResultUtil();
         resultUtil.setSuccess(true);
         resultUtil.setData(data);
         return resultUtil;
     }
 
-    public static ResultUtil error(String msg){
+    public static ResultUtil error(String msg) {
         ResultUtil resultUtil = new ResultUtil();
         resultUtil.setSuccess(false);
         resultUtil.setMsg(msg);

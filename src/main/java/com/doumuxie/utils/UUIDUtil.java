@@ -12,16 +12,17 @@ public class UUIDUtil {
 
     /**
      * 生成UUID
+     *
      * @return
      */
-    public static String getUUID(){
-        return UUID.randomUUID().toString().replaceAll("-","");
+    public static String getUUID() {
+        return UUID.randomUUID().toString().replaceAll("-", "");
     }
 
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
 
-        System.err.println(getUUID());
+            System.err.println(getUUID());
         }
     }
 }

@@ -7,3 +7,14 @@ logging:
   level:
     com.liang: INFO
 
+# jdbc 配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://119.23.235.178:3306/quickstart-demo?serverTime=GMT%2B8
+    username: quickstart
+    password: quickstart
+# 驼峰自动匹配
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

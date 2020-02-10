@@ -49,7 +49,7 @@ public class Md5Util {
     }
 
     public static void main(String[] arge) throws Exception {
-        String result = Md5Util.getMD5Code(URLEncoder.encode("18156119872"+"liang", "utf-8"));
+        String result = Md5Util.getMD5Code(URLEncoder.encode("doumuxie", "utf-8"));
         result = Md5Util.getMD5Code(result);
         result = Md5Util.getMD5Code(result);
         result = Md5Util.getMD5Code(result);

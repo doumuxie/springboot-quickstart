@@ -1,6 +1,7 @@
 package com.doumuxie.service;
 
 import com.doumuxie.dto.DemoDto;
+import com.github.pagehelper.PageInfo;
 
 /**
  * @author doumuxie
@@ -11,4 +12,6 @@ import com.doumuxie.dto.DemoDto;
 public interface DemoService {
 
     DemoDto query(DemoDto dto);
+
+    PageInfo<DemoDto> page(DemoDto dto);
 }

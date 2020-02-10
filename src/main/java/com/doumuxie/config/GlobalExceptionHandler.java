@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.multipart.MaxUploadSizeExceededException;
 
 /**
- * @author liangliang
+ * @author doumuxie
  * @version 1.0
  * @date 2019/5/28 11:17
  * @description GlobalExceptionHandler 全局异常处理
