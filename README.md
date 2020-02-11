@@ -6,7 +6,7 @@
 springboot 快速搭建
 
 #### 软件架构
-JDK1.8 + Springboot + maven + fastjson
+JDK1.8 + Springboot + maven + fastjson + mybatis + pagehelper
 
 
 #### 安装教程
